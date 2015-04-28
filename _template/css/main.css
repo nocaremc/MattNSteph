@@ -1,0 +1,38 @@
+.navbar-fixed-top {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px -5px 15px #eee;
+}
+
+.navbar-toggle {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+    .navbar-toggle .icon-bar {
+        background-color: #ccc;
+    }
+
+.navbar-brand {
+    padding: 1px;
+}
+
+.navbar-brand > img {
+    max-height: 48px;
+}
+
+.navbar + .container {
+    margin-top: 50px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: #f8f8f8; /* Remove */
+}
+
+.nav > li.donate-call {
+    position: absolute;
+    right: 20px;
+}
+    .donate-call input[type="submit"] {
+        margin-top: 2px;
+    }
